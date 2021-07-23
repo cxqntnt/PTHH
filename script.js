@@ -66,5 +66,9 @@ window.onload = function () {
 }
 
 function solve(leftList, rightList) {
-	
+	for (let i=0;i<leftList.length;i++) {
+		for (let j=leftList[i].length-1;j>=0;j--) {
+			
+		}
+	}
 }

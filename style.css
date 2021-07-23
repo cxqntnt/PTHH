@@ -49,14 +49,17 @@ body{
 	font-size: 3rem;
 	display: flex;
 	justify-content: center;
+	padding: 10px;
 }
 
 #left-content{
 	height: 100%;
 	width: 50%;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	align-items: center;
+	overflow-y: hidden;
+	overflow-x: auto;
 }
 
 #right-content{
@@ -65,10 +68,13 @@ body{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	overflow-y: hidden;
+	overflow-x: auto;
 }
 
 input{
 	width: 50px;
 	height: 70%;
 	padding-left: 5px;
+	position: relative;
 }
